@@ -1,0 +1,33 @@
+/*heading*/
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.heading {
+  padding-top: 15em;
+  background-image: linear-gradient(170deg, #333333 , #3e555f);
+}
+
+/*cards*/
+
+.cards {
+  background-color: white;
+}
+
+/*body*/
+
+main {
+  background-image: linear-gradient(170deg, #333333 , #3e555f);
+}
+
+.case {
+  left: 0;
+  bottom: 0;
+}
+
+.section {
+  color: white;
+  padding-top: 15rem;
+}
