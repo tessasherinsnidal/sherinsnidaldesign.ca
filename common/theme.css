@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #333333;
+  --color-secondary: #3e555f;
+  --color-accent: #8aaec0;
+  --btn-border: #fff;
+
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  color: #333333;
+}
+
+h1 {
+  font-family: var(--font-primary);
+}
+
+h1,h2,h3 {
+  color: var(--color-secondary)
+}
