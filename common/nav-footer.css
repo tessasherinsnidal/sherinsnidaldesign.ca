@@ -60,6 +60,15 @@ footer {
   color: white;
 }
 
+.foot-nav {
+
+  width: 33%;
+}
+
+.copyright {
+  vertical-align: right;
+}
+
 @media only screen and (min-width: 960px) {
 
 /*nav*/
