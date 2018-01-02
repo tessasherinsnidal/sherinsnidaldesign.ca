@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <title>{{page.title}}</title>
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400|Raleway" rel="stylesheet">
-  <link href="common/modules.css" rel="stylesheet">
-  <link href="common/grid.css" rel="stylesheet">
-  <link href="common/type.css" rel="stylesheet">
-  <link href="common/theme.css" rel="stylesheet">
-  <link href="common/{{page.cssName}}.css" rel="stylesheet">
-  <link href="common/nav-footer.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/theme.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/{{page.cssName}}.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/nav-footer.css" rel="stylesheet">
 </head>
 <body class="relative">
 
@@ -17,9 +17,9 @@
     <nav class="grid text-left">
       <h4 class="logo unit [ xs-1 l-1-3 ] push-0 pad-t-1-2 pad-b-1-2">Sherin-Snidal Design</h4>
       <ul class="nav grid unit text-right [ xs-1 l-2-3 ] pad-t-1-2 pad-b-1-2 list-group">
-        <li class="unit [ xs-1 m-1-4 ]"><a class="navi current" href="{{site.baseurl}}/">Home</a></li>
-        <li class="unit [ xs-1 m-1-4 ]"><a class="navi" href="{{site.baseurl}}/case-study/">Case Studies</a></li>
-        <li class="unit [ xs-1 m-1-4 ]"><a class="navi" href="{{site.baseurl}}/about-me/">About Me</a></li>
+        <li class="unit [ xs-1 m-1-4 ]"><a class="navi {{page.current}}" href="{{site.baseurl}}/">Home</a></li>
+        <li class="unit [ xs-1 m-1-4 ]"><a class="navi {{page.current2}}" href="{{site.baseurl}}/case-study/">Case Studies</a></li>
+        <li class="unit [ xs-1 m-1-4 ]"><a class="navi {{page.current3}}" href="{{site.baseurl}}/about-me/">About Me</a></li>
       </ul>
     </nav>
   </header>
@@ -32,18 +32,18 @@
       <li class="gutter unit [xs-1 m-1-3]"><a class="navi micro" href="case-study.html">Case Studies</a></li>
       <li class="gutter unit [xs-1 m-1-3]"><a class="navi micro" href="about-me.html">About Me</a></li>
     </ul>
-    <div class="gutter unit [ xs-1 m-1-2 ]">
+    <div class="gutter unit [ xs-1 ]">
       <i class="icon i-32 push-1-2 gutter">
-        <a class="icon-link" href="https://www.behance.net/sher017482ee"><img src="images/behance.svg" alt=""></a>
+        <a class="icon-link" href="https://www.behance.net/tessasheri7e7e"><img src="{{site.baseurl}}/images/behance.svg" alt=""></a>
       </i>
       <i class="icon i-32 push-1-2 gutter">
-        <a class="icon-link" href="https://www.instagram.com/sherinsnidaldesign/"><img src="images/insta.svg" alt=""></a>
+        <a class="icon-link" href="https://www.instagram.com/sherinsnidaldesign/"><img src="{{site.baseurl}}/images/insta.svg" alt=""></a>
       </i>
       <i class="icon i-32 push-1-2 gutter">
-        <a class="icon-link" href="mailto:tessa@sherinsnidaldesign.ca"><img src="images/email.svg" alt=""></a>
+        <a class="icon-link" href="mailto:tessa@sherinsnidaldesign.ca"><img src="{{site.baseurl}}/images/email.svg" alt=""></a>
       </i>
     </div>
-    <div class="copyright gutter unit [xs-1 m-1-2] pad-t-1-2">
+    <div class="copyright gutter unit [ xs-1 ] pad-t-1-2">
       <p class="footy micro gutter-1-2">© Sherin-Snidal Design</p>
     </div>
   </footer>
