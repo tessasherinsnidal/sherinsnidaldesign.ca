@@ -11,10 +11,9 @@ h4 {
 }
 
 .nav {
-  background-color: rgba(65, 85, 95, .5);
+  background-color: rgba(84, 144, 151, .5);
   padding-right: 1.5rem;
 }
-
 
 a {
   text-decoration: none;
@@ -67,6 +66,31 @@ footer {
 
 .copyright {
   vertical-align: right;
+}
+
+/*logo*/
+.icon {
+  height: 25px;
+}
+
+.wordmark {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 400px) {
+/*enlargen logo*/
+.icon {
+  height: 35px;
+}
+}
+
+@media only screen and (min-width: 608px) {
+/*enlargen logo*/
+.icon {
+  height: 45px;
+}
 }
 
 @media only screen and (min-width: 960px) {

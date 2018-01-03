@@ -5,8 +5,8 @@ h1 {
 }
 
 .heading {
-  padding-top: 15em;
-  background-image: linear-gradient(170deg, #333333 , #3e555f);
+  padding-top: 5em;
+  background-image: linear-gradient(170deg, #333333 , var(--color-secondary));
 }
 
 /*cards*/
@@ -18,12 +18,12 @@ h1 {
 /*body*/
 
 main {
-  background-image: linear-gradient(170deg, #333333 , #3e555f);
+  background-color: #333333;
 }
 
 .case {
   left: 0;
-  bottom: 0;
+  bottom: .5em;
 }
 
 .section {
@@ -31,10 +31,23 @@ main {
   padding-top: 15rem;
 }
 
+.title {
+  color: white;
+}
+
+p {
+  text-align: justify;
+  color: #000;
+}
+
+@media only screen and (min-width: 960px) {
+
+.heading {
+  padding-top: 10em;
+}
+/*nav*/
 .img-flex {
   height: 100vh;
 }
 
-.title {
-  color: white;
 }

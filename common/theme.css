@@ -1,6 +1,6 @@
 :root {
   --color-primary: #333333;
-  --color-secondary: #3e555f;
+  --color-secondary: #549097;
   --color-accent: #8aaec0;
   --btn-border: #fff;
 
@@ -18,5 +18,17 @@ h1 {
 }
 
 h1,h2,h3 {
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline-color: var(--color-secondary);
+
+84 144 151

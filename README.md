@@ -11,4 +11,5 @@ Solving problems in a constructive and creative way it's what gets me out of bed
 I have always loved art, but have never been able to just make something attractive without a purpose. I have always been driven to make the creations in my world attractive and solve the issues facing usability.
 
 - **[tessa@sherinsnidaldesign.ca](mailto:tessa@sherinsnidaldesign.ca)
-- [Instagram]
+- [Instagram](https://www.instagram.com/sherinsnidaldesign/)
+- [Behance](https://www.behance.net/tessasheri7e7e)
