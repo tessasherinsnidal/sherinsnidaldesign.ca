@@ -486,6 +486,7 @@ svg.img-flex {
 
 .relative {
   position: relative;
+  overflow: hidden;
 }
 
 [class*="pin-"],
