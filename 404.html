@@ -1,11 +1,32 @@
----
-layout: default
-title: Narnia · Sherin Snidal Design
-cssName: home
-current:
-permalink: 404 Error.
----
-<p>
-  <strong>404 Not Found.</strong>
-</p>
-<p>Sorry, but the page that you were looking for, in not real; unlike this unicorn, who is very real! Why don't you go <a href="{{site.baseurl}}/index/">home</a> and try again.</p>
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="image" content="">
+  <meta name="description" content="{{page.content-name}}">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400|Raleway" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/site.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/{{page.cssName}}.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/common/nav-footer.css" rel="stylesheet">
+</head>
+
+<body class="relative">
+
+  <header class="fixed">
+    <div class="wordmark pad-t-1-2 pad-b-1-2 text-center">
+      <i class="icon i-500 text-center wordmark">
+        <a href="{{site.baseurl}}/index/" class="btn-link"><img src="{{site.baseurl}}/images/wordmarkl.svg" alt="Link to Home Page"></a>
+      </i>
+    </div>
+  </header>
+
+  <main>
+    <p>
+      <strong>404 Not Found.</strong>
+    </p>
+    <p>Sorry, but the page that you were looking for, in not real; unlike this unicorn, who is very real! Why don't you go <a href="{{site.baseurl}}/index/">home</a> and try again.</p>
+  </main>
+</body>
+</html>
