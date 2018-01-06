@@ -23,7 +23,7 @@ section {
 
 p {
   text-align: justify;
-  color: #000;
+  color: #fdfdfd;
 }
 
 /*Case Study Banner*/
@@ -64,22 +64,4 @@ p {
 .section {
   color: white;
   padding-top: 5rem;
-}
-
-@media only screen and (min-width: 400px) {
-
-  .img-flex {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width: 960px) {
-
-  .heading {
-    padding-top: 10em;
-  }
-  /*nav*/
-  .img-flex {
-    height: 100vh;
-  }
 }
