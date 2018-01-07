@@ -42,14 +42,23 @@ body, html {
   color: #666;
   background-color: #333;
   text-align: center;
-  padding: 30px 80px;
+  padding: 2em 2em;
   text-align: justify;
+}
+
+.about {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 52em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .border {
   background-color: transparent;
   font-size: 25px;
   color: #fdfdfd;
+  text-align: center;
 }
 
 .under-border {
