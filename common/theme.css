@@ -81,20 +81,20 @@ body, html {
 
 }
 
-{{site.baseurl}}
+
 
 .bgimg-1 {
-  background-image: url("..//images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/test.jpg");
   min-height: 100vh;
 }
 
 .bgimg-2 {
-  background-image: url("..//images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/test.jpg");
   min-height: 100vh;
 }
 
 .bgimg-3 {
-  background-image: url("..//images/test.jpg");
+  background-image: url("{{site.baseurl}}//images/test.jpg");
   min-height: 100vh;
 }
 
@@ -117,20 +117,18 @@ body, html {
   color: #000;
 }
 
-.caption span.border {
+.caption p.border {
   background-color: #;
   color: #fff;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
 }
 
-.caption2 span.border {
+.caption2 p.border {
   background-color: #;
   color: #fff;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
 }
 
 h2 {
@@ -144,6 +142,7 @@ h2 {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+        height: 100vh;
     }
 }
 
@@ -152,6 +151,14 @@ h2 {
 
   .img-flex {
     margin: 0;
+  }
+
+  .caption p.border {
+    letter-spacing: 10px;
+  }
+
+  .caption2 p.border {
+    letter-spacing: 10px;
   }
 }
 

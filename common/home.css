@@ -50,7 +50,8 @@ p {
   color: white;
   transition: .5s ease;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .container:hover .image {
@@ -66,9 +67,34 @@ p {
   padding-top: 5rem;
 }
 
+@media (hover: none) {
+  /* behaviour for touch browsers */
+
+  .container{
+    position: static;
+  }
+
+  .middle {
+    position: static;
+    opacity: 1;
+    padding-left: 2em;
+    text-align: left;
+    left: 0;
+    top: 0;
+    transform: none;
+    -ms-transform: none;
+    font-size: 1rem;
+  }
+
+}
+
 @media only screen and (max-device-width: 1024px) {
   .image {
     padding-left: 2em;
     padding-right: 2em;
+  }
+
+  .case-name {
+
   }
 }
