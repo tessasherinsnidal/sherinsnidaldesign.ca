@@ -45,8 +45,7 @@ body, html {
   color: #666;
   background-color: #333;
   text-align: center;
-  padding: 2em 2em;
-  text-align: justify;
+  padding: 1em 1em;
 }
 
 .about {
@@ -55,6 +54,7 @@ body, html {
   max-width: 52em;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 
 .border {
@@ -72,6 +72,7 @@ body, html {
 
 .title {
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -81,10 +82,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
-
 
 .bgimg-1 {
   background-image: url("{{site.baseurl}}/images/test.jpg");
@@ -144,8 +142,12 @@ h2 {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-        height: 100vh;
+      background-attachment: scroll;
+      height: 100vh;
+    }
+
+    .title {
+      letter-spacing: inherit;
     }
 }
 
@@ -162,6 +164,10 @@ h2 {
 
   .caption2 p.border {
     letter-spacing: 10px;
+  }
+
+  .about {
+    text-align: justify;
   }
 }
 
