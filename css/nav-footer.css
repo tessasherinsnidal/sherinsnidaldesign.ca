@@ -93,27 +93,27 @@ footer {
 }
 
 .bgimg-cap {
-  background-image: url("/images/cap.jpg");
+  background-image: url("{{site.baseurl}}/images/cap.jpg");
   min-height: 100vh;
 }
 
 .bgimg-dead {
-  background-image: url("/images/dead.jpg");
+  background-image: url("{{site.baseurl}}/images/dead.jpg");
   min-height: 100vh;
 }
 
 .bgimg-1 {
-  background-image: url("/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/test.jpg");
   min-height: 100vh;
 }
 
 .bgimg-2 {
-  background-image: url("/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/test.jpg");
   min-height: 100vh;
 }
 
 .bgimg-3 {
-  background-image: url("/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/test.jpg");
   min-height: 100vh;
 }
 
