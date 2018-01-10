@@ -47,62 +47,22 @@ about: "Hi, I'm Tessa. I am an illustration and motion based Graphic Designer wh
 <section>
   <div>
     <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="illustration">Illustration</h2>
-    <a href="{{site.baseurl}}/marvel-characters/">
-      <div class="container">
-        <img class="image pad-b" src="http://via.placeholder.com/350x150" alt="Marvel Characters Banner">
-        <h2 class="middle text-center push-0 pad-b">Marvel Characters</h2>
-      </div>
-    </a>
-    <a href="{{site.baseurl}}/abstract-characters/">
-      <div class="container">
-        <img class="image pad-b pad-t" src="http://via.placeholder.com/350x150" alt="Classical Characters Banner">
-        <h2 class="middle text-center push-0 pad-b">Abstract Characters</h2>
-      </div>
-    </a>
-    <a href="{{site.baseurl}}/making-of-beer/">
-      <div class="container">
-        <img class="image pad-b pad-t" src="http://via.placeholder.com/350x150" alt="The Making of Beer Banner">
-        <h2 class="middle text-center push-0 pad-b">The Making of Beer</h2>
-      </div>
-    </a>
-    <a href="{{site.baseurl}}/guy-ritchie/">
-      <div class="container">
-        <img class="image pad-b pad-t" src="http://via.placeholder.com/350x150" alt="Guy Ritchie Banner">
-        <h2 class="middle text-center push-0 pad-b">Guy Ritchie's Best</h2>
-      </div>
-    </a>
+    {% include banner.html link="marvel-characters" title="Marvel Characters" %}
+    {% include banner.html class="pad-t" link="abstract-characters" title="Abstract Characters" %}
+    {% include banner.html class="pad-t" link="making-of-beer" title="The Making of Beer" %}
+    {% include banner.html class="pad-t" link="guy-ritchie" title="Guy Ritchie's Best" %}
   </div>
 
   <div>
     <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="ux">UX Design</h2>
-    <a href="{{site.baseurl}}/gendersafe/">
-      <div class="container">
-        <img class="image pad-b" src="http://via.placeholder.com/350x150" alt="GenderSafe app Banner">
-        <h2 class="middle text-center push-0 pad-b">GenderSafe</h2>
-      </div>
-    </a>
-    <a href="{{site.baseurl}}/leavn/">
-      <div class="container">
-        <img class="image pad-b pad-t" src="http://via.placeholder.com/350x150" alt="Leav'N app Banner">
-        <h2 class="middle text-center push-0 pad-b">Leav'N</h2>
-      </div>
-    </a>
+    {% include banner.html link="gendersafe" title="GenderSafe" %}
+    {% include banner.html class="pad-t" link="leavn" title="Leav'N" %}
   </div>
 
   <div>
     <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="branding">Branding</h2>
-    <a href="{{site.baseurl}}/kars-massage-therapy/">
-      <div class="container">
-        <img class="image pad-b" src="http://via.placeholder.com/350x150" alt="Kars Massage Therapy Banner">
-        <h2 class="middle text-center push-0 pad-b">Kars Massage Therapy</h2>
-      </div>
-    </a>
-    <a href="{{site.baseurl}}/sherinsnidaldesign/">
-      <div class="container">
-        <img class="image pad-b pad-t" src="http://via.placeholder.com/350x150" alt="Sherin Snidal Design Banner">
-        <h2 class="middle text-center push-0 pad-b">Sherin Snidal Design</h2>
-      </div>
-    </a>
+    {% include banner.html link="kars-massage-therapy" title="Kars Massage Therapy" %}
+    {% include banner.html class="pad-t" link="sherinsnidaldesign" title="Sherin Snidal Design" %}
   </div>
 
 </section>
