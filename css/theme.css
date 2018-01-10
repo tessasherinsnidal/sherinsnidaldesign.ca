@@ -17,8 +17,12 @@ h1 {
   font-family: var(--font-primary);
 }
 
-h1,h2,h3 {
+h1,h2, {
   color: var(--color-secondary);
+}
+
+h3 {
+  color: white;
 }
 
 a:focus,
@@ -30,6 +34,10 @@ textarea:focus,
 button:focus,
 select:focus {
   outline-color: var(--color-secondary);
+}
+
+main {
+  background-color: (0,0,0,0)
 }
 
 /*parallax*/
@@ -60,6 +68,7 @@ body, html {
   font-size: 25px;
   color: #fdfdfd;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .under-border {
