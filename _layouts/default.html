@@ -1,6 +1,3 @@
----
----
-
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
@@ -26,12 +23,9 @@
   <meta name="twitter:image" content="{{site.baseurl}}/images/main.svg">
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400|Raleway" rel="stylesheet">
-  <link href="{{site.baseurl}}/common/modules.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/common/grid.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/common/type.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/common/theme.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/site.css" rel="stylesheet">
   <link href="{{site.baseurl}}/common/{{page.cssName}}.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/common/nav-footer.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/nav-footer.css" rel="stylesheet">
 </head>
 
 <body class="relative">
@@ -50,8 +44,8 @@
 
   <footer class="pad-t grid" id="data-author" itemprop="author" itemscope itemtype="">
     <ul class="unit text-left [ xs-1 ] list-group grid pad-b gutter-1-2">
-      <li class="gutter unit [xs-1 m-1-3]"><a class="navi micro" href="{{site.baseurl}}/index/" {% if page.url == '/index/' %} class="current" {% endif %}>Home</a></li>
-      <li class="gutter unit [xs-1 m-1-3]"><a class="navi micro" href="{{site.baseurl}}/contact-me/">About Me</a></li>
+      <li class="gutter unit [xs-1 m-1-3]"><a class="navi {{page.current}} micro" href="{{site.baseurl}}/index/">Home</a></li>
+      <li class="gutter unit [xs-1 m-1-3]"><a class="navi micro" href="{{site.baseurl}}/contact-me/">Contact Me</a></li>
     </ul>
     <div class="gutter unit [ xs-1 ]">
       <i class="icon i-32 push-1-2 gutter">
