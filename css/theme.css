@@ -17,12 +17,8 @@ h1 {
   font-family: var(--font-primary);
 }
 
-h1,h2, {
-  color: var(--color-secondary);
-}
-
-h3 {
-  color: white;
+h1,h2, h3 {
+  color: #333;
 }
 
 a:focus,
