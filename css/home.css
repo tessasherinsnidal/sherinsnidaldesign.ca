@@ -35,6 +35,11 @@ section {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-bottom: 9px solid #fff;
+  border-style: double;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .middle {
@@ -84,12 +89,5 @@ section {
 }
 
 @media only screen and (max-device-width: 1024px) {
-  .image {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
 
-  .case-name {
-
-  }
 }

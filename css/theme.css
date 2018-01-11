@@ -36,10 +36,12 @@ main {
   background-color: (0,0,0,0)
 }
 
-section {
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid #fff;
+.section {
+  border-bottom: 9px solid #fff;
   border-style: double;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 /*parallax*/
