@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<div class="bgimg-{{page.img}}">
+<div itemscope itemtype="https://schema.org/Creative work" class="bgimg-{{page.img}}">
   <div class="caption">
-    <p class="border">{{page.header}}</p>
+    <p itemprop="name" class="border">{{page.header}}</p>
   </div>
   <div class="caption2">
-    <p class="border">{{page.type}}</p>
+    <p itemprop="about" class="border">{{page.type}}</p>
   </div>
 </div>
 
-<div class="info">
+<div itemscope itemtype="https://schema.org/Person" class="info">
   <div class="">
-    <h2 class="title">{{page.header}}</h2>
-    <p class="about">{{page.about}}</p>
+    <h2 itemprop="name" class="title">{{page.header}}</h2>
+    <p itemprop="description" class="about">{{page.about}}</p>
   </div>
 </div>
 
