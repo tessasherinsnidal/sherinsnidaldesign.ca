@@ -103,32 +103,32 @@ footer {
 }
 
 .bgimg-3 {
-  background-image: url("{{site.baseurl}}/images/corner.jpg");
+  background-image: url("{{site.baseurl}}/images/cogg.jpg");
   min-height: 100vh;
 }
 
 .bgimg-4 {
-  background-image: url("{{site.baseurl}}/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/rust.jpg");
   min-height: 100vh;
 }
 
 .bgimg-5 {
-  background-image: url("{{site.baseurl}}/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/wheel.jpg");
   min-height: 100vh;
 }
 
 .bgimg-6 {
-  background-image: url("{{site.baseurl}}/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/twigs.jpg");
   min-height: 100vh;
 }
 
 .bgimg-7 {
-  background-image: url("{{site.baseurl}}/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/corner.jpg");
   min-height: 100vh;
 }
 
 .bgimg-8 {
-  background-image: url("{{site.baseurl}}/images/test.jpg");
+  background-image: url("{{site.baseurl}}/images/moss.jpg");
   min-height: 100vh;
 }
 
