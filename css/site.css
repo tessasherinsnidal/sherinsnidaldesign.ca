@@ -6,3 +6,4 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% include_relative nav-footer.css %}
+{% include_relative home.css %}
