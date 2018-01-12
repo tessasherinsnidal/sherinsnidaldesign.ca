@@ -42,6 +42,10 @@ section {
   border-right: none;
 }
 
+.icons {
+  max-width: 100px;
+}
+
 .middle {
   position: absolute;
   left: 50%;
