@@ -1,13 +1,11 @@
-<div itemscope itemtype="https://schema.org/Creativework" >
-  <div itemprop="name" class="bgimg-{{include.img}}">
-    <div class="caption">
-      <span class="border">{{include.title}}</span>
-    </div>
+<div itemscope itemtype="https://schema.org/Creativework" class="bgimg-{{include.img}}">
+  <div class="caption">
+    <p itemprop="name" class="border">{{include.title}}</p>
   </div>
+</div>
 
-  <div itemprop="description" class="relative">
-    <div class="info">
-      <img class="gutter-2 pad-t-2 pad-b-2 piece" src="{{site.baseurl}}/images/{{include.image}}" alt="{{include.alt}}">
-    </div>
+<div itemprop="description" class="relative">
+  <div class="info">
+    <img class="gutter-2 pad-t-2 pad-b-2 piece" src="{{site.baseurl}}/images/{{include.image}}" alt="{{include.alt}}">
   </div>
 </div>
