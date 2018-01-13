@@ -16,26 +16,8 @@ p {
   text-align: justify;
 }
 
-span {
-  color: #fff;
-}
-
 .piece {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.download {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.download:hover {
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-  border-left: none;
-  border-right: none;
-  background-color: inherit;
-  text-decoration: none;
 }
