@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://sherinsnidaldesign.ca/</loc>
+  <priority>1.0</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+<url>
+  <loc>https://sherinsnidaldesign.ca/captainamerica.html</loc>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+<url>
+  <loc>https://sherinsnidaldesign.ca/making-of-beer.html</loc>
+  <priority>0.7</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+</urlset>
