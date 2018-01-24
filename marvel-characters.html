@@ -9,6 +9,80 @@ about: A geometric illustration of Marvel Characters, vectored to give them each
 img: 2
 link: marvel-characters
 ---
+<div class="grid">
+  <div class="unit [ xs-1 s-1-2 m-1-4 ]">
+    <a href="javascript:void(0)" onclick="openImg('captain-america');">
+      <div itemscope itemtype="https://schema.org/Creativework" class="container pad-b {{include.class}}">
+        <img itemprop="image" class="image" src="{{site.baseurl}}/images/captain-america.svg" alt="">
+        <h2 itemprop="name" class="middle text-center push-0 pad-b milli">Captain America</h2>
+      </div>
+    </a>
+  </div>
+</div>
+
+  <div class="grid">
+    <div class="unit [ xs-1-2 m-1-4 ]">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature')">
+        <img src="{{site.baseurl}}/images/marvel-characters.jpg" alt="Nature">
+      </a>
+    </div>
+    <div class="w3-col s3 w3-container">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Fjords');">
+        <img src="img_fjords.jpg" alt="Fjords" style="width:100%">
+      </a>
+    </div>
+    <div class="w3-col s3 w3-container">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
+        <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+      </a>
+    </div>
+    <div class="w3-col s3 w3-container">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+        <img src="img_lights.jpg" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div><br>
+
+  <div id="captain-america" class="picture w3-display-container" style="display:none">
+    <span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+    <figure class="island">
+      <img src="{{site.baseurl}}/images/captain-america.svg" class="island" style="width:100%; max-height:100vh;" alt="Captain America Illustration">
+      <figcaption class="w3-display-bottomleft w3-container w3-padding island pad-t w3-text-white">Captain America Illustraion</figcaption>
+    </figure>
+  </div>
+
+  <div id="Fjords" class="picture w3-display-container" style="display:none">
+    <img src="img_fjords_wide.jpg" alt="Fjords" style="width:100%">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+    <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Fjords</div>
+  </div>
+
+  <div id="Mountains" class="picture w3-display-container" style="display:none">
+    <img src="img_mountains_wide.jpg" alt="Mountains" style="width:100%">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-display-topright w3-button w3-transparent">&times;</span>
+    <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
+  </div>
+
+  <div id="Lights" class="picture w3-display-container" style="display:none">
+    <img src="img_lights_wide.jpg" alt="Lights" style="width:100%">
+    <span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+    <div class="w3-display-bottomleft w3-container w3-padding w3-text-white" style="width:100%;">Northern Lights</div>
+    {% include case-piece.html img="3" title="Captain America" image="captain-america.svg" alt="Low-Poly picture of Captain America" %}
+    {% include case-piece.html img="4" title="Deadpool" image="deadpool.svg" alt="Low-Poly picture of Deadpool" %}
+  </div>
 
 {% include case-piece.html img="3" title="Captain America" image="captain-america.svg" alt="Low-Poly picture of Captain America" %}
 {% include case-piece.html img="4" title="Deadpool" image="deadpool.svg" alt="Low-Poly picture of Deadpool" %}
+
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "block";
+}
+</script>

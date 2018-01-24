@@ -28,8 +28,10 @@ summary:focus,
 input:focus,
 textarea:focus,
 button:focus,
-select:focus {
+select:focus,
+:focus {
   outline-color: var(--color-secondary);
+  opacity: .65;
 }
 
 main {
