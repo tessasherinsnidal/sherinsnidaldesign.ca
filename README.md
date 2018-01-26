@@ -6,10 +6,10 @@
 
 Tessa Sherin-Snidal
 
-The opportunity to solve problems in a constructive, and creative way is what gets me out of bed in the morning. Graphic Design provides me these opportunities and I love every day I am able to practice my profession. It drives me to better myself, and the world around me.
+Solving problems in a constructive and creative way it's what gets me out of bed in the morning. Graphic Design being the encompassment of all this makes me love every day of my profession. It drives me to better myself and the world around me.
 
-I have always loved art, but have never been able to just make something attractive without a purpose. Through my art I am able to solve usability issues facing our everyday life.
+I have always loved art, but have never been able to just make something attractive without a purpose. I have always been driven to make the creations in my world attractive and solve the issues facing usability.
 
 - **[tessa@sherinsnidaldesign.ca](mailto:tessa@sherinsnidaldesign.ca)
 - [Instagram](https://www.instagram.com/sherinsnidaldesign/)
-- [Behance](https://www.behance.net/tsherinsnidal)
+- [Behance](https://www.behance.net/tessasheri7e7e)

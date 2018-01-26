@@ -5,133 +5,81 @@ title: Marvel Characters · Illustration · Sherin Snidal Design
 header: Marvel Characters
 cssName: case-study
 content-name: A grouping of illustrations called "Marvel Characters", designed by Tessa Sherin-Snidal.
-about: A geometric illustration of Marvel Characters, vectorized to give then a low-poly feel. These were done as a side project for my own amusement to add pieces of my own work to my decoration. These characters are represented in a way they can be marketed on many different platforms and materials.
+about: A geometric illustration of Marvel Characters, vectored to give them each a low-poly look. These characters are represented in a way that they can be marketed on many different platforms and materials.
 img: 2
 link: marvel-characters
 ---
-
-<div class="dborder">
-  <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0">Captain America</h2>
-  <img class="gutter-2 pad-t-2 pad-b-2 text-center piece" style="" src="{{site.baseurl}}/images/captain-america.svg" alt="Illustration of Captain America">
-</div>
-<div class="w3-content gutter-2" style="max-width:1200px">
-  <div class="w3-row-padding">
-    <div class="w3-col s6 m3 w3-container">
-    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Cap1');">
-      <img src="{{site.baseurl}}/images/marvel-mockup-captain-1.jpg" alt="Captain America as Computer Screen Mockup" style="width:100%">
+<div class="grid">
+  <div class="unit [ xs-1 s-1-2 m-1-4 ]">
+    <a href="javascript:void(0)" onclick="openImg('captain-america');">
+      <div itemscope itemtype="https://schema.org/Creativework" class="container pad-b {{include.class}}">
+        <img itemprop="image" class="image" src="{{site.baseurl}}/images/captain-america.svg" alt="">
+        <h2 itemprop="name" class="middle text-center push-0 pad-b milli">Captain America</h2>
+      </div>
     </a>
-    </div>
-    <div class="w3-col s6 m3 w3-container">
-      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Cap2');">
-        <img src="{{site.baseurl}}/images/marvel-mockup-captain-2.jpg" alt="Captain America Book Cover Mockup" style="width:100%">
+  </div>
+</div>
+
+  <div class="grid">
+    <div class="unit [ xs-1-2 m-1-4 ]">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature')">
+        <img src="{{site.baseurl}}/images/marvel-characters.jpg" alt="Nature">
       </a>
     </div>
-    <div class="w3-col s6 m3 w3-container">
-      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Cap3');">
-        <img src="{{site.baseurl}}/images/marvel-mockup-captain-3.jpg" alt="Captain America Bedroom Painting Mockup" style="width:100%">
+    <div class="w3-col s3 w3-container">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Fjords');">
+        <img src="img_fjords.jpg" alt="Fjords" style="width:100%">
       </a>
     </div>
-    <div class="w3-col s6 m3 w3-container">
-      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Cap4');">
-        <img src="{{site.baseurl}}/images/marvel-mockup-captain-4.jpg" alt="Captain America Tile Mural Mockup" style="width:100%">
+    <div class="w3-col s3 w3-container">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
+        <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+      </a>
+    </div>
+    <div class="w3-col s3 w3-container">
+      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+        <img src="img_lights.jpg" alt="Lights" style="width:100%">
       </a>
     </div>
   </div><br>
 
-  <div id="Cap1" class="picture w3-display-container pad-b" style="display:none">
-    <img src="{{site.baseurl}}/images/marvel-mockup-captain-1.jpg" alt="Captain America as Computer Screen Mockup" style="width:100%">
+  <div id="captain-america" class="picture w3-display-container" style="display:none">
+    <span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+    <figure class="island">
+      <img src="{{site.baseurl}}/images/captain-america.svg" class="island" style="width:100%; max-height:100vh;" alt="Captain America Illustration">
+      <figcaption class="w3-display-bottomleft w3-container w3-padding island pad-t w3-text-white">Captain America Illustraion</figcaption>
+    </figure>
+  </div>
+
+  <div id="Fjords" class="picture w3-display-container" style="display:none">
+    <img src="img_fjords_wide.jpg" alt="Fjords" style="width:100%">
     <span onclick="this.parentElement.style.display='none'"
-    class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
+    class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+    <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Fjords</div>
   </div>
 
-  <div id="Cap2" class="picture w3-display-container pad-b" style="display:none">
-    <img src="{{site.baseurl}}/images/marvel-mockup-captain-2.jpg" alt="Captain America Book Cover Mockup" style="width:100%">
+  <div id="Mountains" class="picture w3-display-container" style="display:none">
+    <img src="img_mountains_wide.jpg" alt="Mountains" style="width:100%">
     <span onclick="this.parentElement.style.display='none'"
-    class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
+    class="w3-display-topright w3-button w3-transparent">&times;</span>
+    <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
   </div>
 
-  <div id="Cap3" class="picture w3-display-container pad-b" style="display:none">
-    <img src="{{site.baseurl}}/images/marvel-mockup-captain-3.jpg" alt="Captain America Bedroom Painting Mockup" style="width:100%">
-    <span onclick="this.parentElement.style.display='none'"
-    class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
+  <div id="Lights" class="picture w3-display-container" style="display:none">
+    <img src="img_lights_wide.jpg" alt="Lights" style="width:100%">
+    <span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+    <div class="w3-display-bottomleft w3-container w3-padding w3-text-white" style="width:100%;">Northern Lights</div>
+    {% include case-piece.html img="3" title="Captain America" image="captain-america.svg" alt="Low-Poly picture of Captain America" %}
+    {% include case-piece.html img="4" title="Deadpool" image="deadpool.svg" alt="Low-Poly picture of Deadpool" %}
   </div>
 
-  <div id="Cap4" class="picture w3-display-container pad-b" style="display:none">
-    <img src="{{site.baseurl}}/images/marvel-mockup-captain-4.jpg" alt="Captain America Tile Mural Mockup" style="width:100%">
-    <span onclick="this.parentElement.style.display='none'"
-    class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
-  </div>
-</div>
-
-<div itemscope itemtype="https://schema.org/Creativework" class="pad-b-2">
-  <div class="dborder">
-    <h2 class="text-left section gutter pad-b-1-2 push-0">Deadpool</h2>
-    <img class="gutter-2 pad-t-2 pad-b-2 text-center piece" style="" src="{{site.baseurl}}/images/deadpool.svg" alt="Illustration of Deadpool">
-  </div>
-  <div class="w3-content gutter-2" style="max-width:1200px">
-    <div class="w3-row-padding">
-      <div class="w3-col s6 m3 w3-container">
-      <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Dead1');">
-        <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-1.jpg" alt="Deadpool as computer screen Mockup" style="width:100%">
-      </a>
-      </div>
-      <div class="w3-col s6 m3 w3-container">
-        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Dead2');">
-          <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-2.jpg" alt="Deadpool Book Cover Mockup" style="width:100%">
-        </a>
-      </div>
-      <div class="w3-col s6 m3 w3-container">
-        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Dead3');">
-          <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-3.jpg" alt="Deadpool Bedroom Painting Mockup" style="width:100%">
-        </a>
-      </div>
-      <div class="w3-col s6 m3 w3-container">
-        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Dead4');">
-          <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-4.jpg" alt="Deadpool Tile Mural Mockup" style="width:100%">
-        </a>
-      </div>
-    </div><br>
-
-    <div id="Dead1" class="picture2 w3-display-container pad-b" style="display:none">
-      <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-1.jpg" alt="Deadpool as computer screen Mockup" style="width:100%">
-      <span onclick="this.parentElement.style.display='none'"
-      class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
-    </div>
-
-    <div id="Dead2" class="picture2 w3-display-container pad-b" style="display:none">
-      <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-2.jpg" alt="Deadpool Book Cover Mockup" style="width:100%">
-      <span onclick="this.parentElement.style.display='none'"
-      class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
-    </div>
-
-    <div id="Dead3" class="picture2 w3-display-container pad-b" style="display:none">
-      <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-3.jpg" alt="Deadpool Bedroom Painting Mockup" style="width:100%">
-      <span onclick="this.parentElement.style.display='none'"
-      class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
-    </div>
-
-    <div id="Dead4" class="picture2 w3-display-container pad-b" style="display:none">
-      <img src="{{site.baseurl}}/images/marvel-mockup-deadpool-4.jpg" alt="Deadpool Tile Mural Mockup" style="width:100%">
-      <span onclick="this.parentElement.style.display='none'"
-      class="w3-display-topright w3-button w3-transparent w3-text-white yotta" style="text-shadow: 2px 2px 4px #333;">&times;</span>
-    </div>
-  </div>
-</div>
+{% include case-piece.html img="3" title="Captain America" image="captain-america.svg" alt="Low-Poly picture of Captain America" %}
+{% include case-piece.html img="4" title="Deadpool" image="deadpool.svg" alt="Low-Poly picture of Deadpool" %}
 
 <script>
 function openImg(imgName) {
   var i, x;
   x = document.getElementsByClassName("picture");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  document.getElementById(imgName).style.display = "block";
-}
-</script>
-<script>
-function openImg(imgName) {
-  var i, x;
-  x = document.getElementsByClassName("picture2");
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";
   }

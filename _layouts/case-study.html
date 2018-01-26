@@ -7,21 +7,19 @@ layout: default
     <p itemprop="name" class="border">{{page.header}}</p>
   </div>
   <div class="caption2">
-    <p itemprop="about" class="border w3-opacity-min">{{page.type}}</p>
+    <p itemprop="about" class="border">{{page.type}}</p>
   </div>
 </div>
 
-<div itemscope itemtype="https://schema.org/Creativework" class="bgimg-{{page.img}}">
-  <div itemscope itemtype="https://schema.org/Person" class="info wrapper">
-    <div class="">
-      <h2 itemprop="name" class="title">{{page.header}}</h2>
-      <p itemprop="description" class="about">{{page.about}}</p>
-    </div>
+<div itemscope itemtype="https://schema.org/Person" class="info">
+  <div class="">
+    <h2 itemprop="name" class="title">{{page.header}}</h2>
+    <p itemprop="description" class="about">{{page.about}}</p>
   </div>
-
-  <section itemscope itemtype="https://schema.org/Creativework" >
-
-    {{content}}
-
-  </section>
 </div>
+
+<section itemscope itemtype="https://schema.org/Creativework" >
+
+  {{content}}
+
+</section>
