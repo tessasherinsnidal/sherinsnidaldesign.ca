@@ -27,18 +27,36 @@ a {
 
 a:focus {
   border: none;
-  color: #7c9ca9;
+  color: var(--color-secondary);
 }
 
 a:hover {
-  color: #7c9ca9;
+  color: var(--color-secondary);
   text-decoration: underline;
   opacity: 0.65;
 }
 
 a:active {
-  color: #7c9ca9;
+  color: var(--color-secondary);
   text-decoration: underline;
+}
+
+a:hover .id-link {
+  color: var(--color-secondary);
+  -webkit-transition: opacity 1s; /* Safari */
+  transition: opacity 1s;
+  -webkit-transition: color .5s; /* Safari */
+  transition: color .5s;
+}
+
+a svg path {
+  fill: #fff;
+  -webkit-transition: fill .5s; /* Safari */
+  transition: fill .5s;
+}
+
+a:hover svg path {
+  fill: var(--color-secondary);
 }
 
 navi {
@@ -47,7 +65,7 @@ navi {
 }
 
 .current {
-  color: #7c9ca9;
+  color: var(--color-secondary);
   text-decoration: none;
   pointer-events: none;
   cursor: default;
@@ -56,7 +74,7 @@ navi {
 /*footer*/
 
 footer {
-  background-color: #333;
+  background-color: var(--color-primary);
 }
 
 .footy {
@@ -85,7 +103,6 @@ footer {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9 {
   position: relative;
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -26,53 +26,52 @@ id: portfolio
   </div>
 </div>
 
-<div itemscope itemtype="https://schema.org/Creativework" class="bgimg-{{page.img}}">
-  <div class="caption">
-    <p itemprop="name" class="border">Skills</p>
-  </div>
-  <div class="caption2">
-    <p itemprop="about" class="border">{{page.type}}</p>
-  </div>
-  <div class="grid text-center pad-t-2 pad-b-2 wrapper">
+<div itemscope itemtype="https://schema.org/Creativework" class="bgimg-1">
+  <div class="grid text-center pad-t-2 wrapper opacity">
     <div class="unit [ xs-1 m-1-3 ] inline-block gutter">
       <a class="id-link" itemscope itemtype="https://schema.org/Creativework" href="#illustration">
         <img itemprop="image" class="icons" src="{{site.baseurl}}/images/illustration.svg" alt="Link to Illustration section">
-        <h3 class="kilo" itemprop="link">Illustration</h3>
+        <h3 class="kilo id-link" itemprop="link">Illustration</h3>
       </a>
     </div>
     <div class="unit [ xs-1 m-1-3 ] inline-block gutter">
       <a class="id-link" itemscope itemtype="https://schema.org/Creativework" href="#ux">
         <img itemprop="image" class="icons" src="{{site.baseurl}}/images/ux.svg" alt="Link to UX/UI Design section">
-        <h3 class="kilo" itemprop="link">UX/UI Design</h3>
+        <h3 class="kilo id-link" itemprop="link">UX/UI Design</h3>
       </a>
     </div>
     <div class="unit [ xs-1 m-1-3 ] inline-block gutter">
       <a class="id-link" itemtype="https://schema.org/Creativework" href="#branding">
         <img itemprop="image" class="icons" src="{{site.baseurl}}/images/branding.svg" alt="Link to Branding section">
-        <h3 class="kilo" itemprop="link">Branding/Identity</h3>
+        <h3 class="kilo id-link" itemprop="link">Branding/Identity</h3>
       </a>
     </div>
   </div>
+  <section class="dborder pad-b">
+
+    <div class="dborder">
+      <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="illustration">Illustration</h2>
+      <div class="gutter">
+        {% include banner.html link="marvel-characters" title="Marvel Characters" image="marvel-characters" alt="Link to Marvel Characters Page" %}
+        {% include banner.html link="abstract-characters" title="Abstract Characters" image="abstract-characters" alt="Link to Abstract Characters Page" %}
+        {% include banner.html link="making-of-beer" title="The Making of Beer" image="beer-banner" alt="Link to The Making of Beer Page" %}
+        {% include banner.html link="guy-ritchie" title="Guy Ritchie's Best" image="guy-ritchie-banner" alt="Link to Guy Ritchie's Best Page" %}
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="ux">UX/UI Design</h2>
+      <div class="gutter">
+        {% include banner.html link="gendersafe" title="GenderSafe" image="gendersafe-banner" alt="Link to GenderSafe Case Study Page" %}
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="branding">Branding/Identity</h2>
+      <div class="gutter">
+        {% include banner.html link="kars-massage-therapy" title="Kars Massage Therapy" image="kars-massage-therapy-banner" alt="Link to Kars Massage Therapy Branding Page" %}
+      </div>
+    </div>
+
+  </section>
 </div>
-
-<section class="dborder pad-b">
-
-  <div class="dborder">
-    <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="illustration">Illustration</h2>
-    {% include banner.html link="marvel-characters" title="Marvel Characters" image="marvel-characters" alt="Link to Marvel Characters Page" %}
-    {% include banner.html class="pad-t-2 pad-b-2" link="abstract-characters" title="Abstract Characters" image="abstract-characters" alt="Link to Abstract Characters Page" %}
-    {% include banner.html class="pad-t-2 pad-b-2" link="making-of-beer" title="The Making of Beer" image="beer-banner" alt="Link to The Making of Beer Page" %}
-    {% include banner.html class="pad-t-2 pad-b-2" link="guy-ritchie" title="Guy Ritchie's Best" image="guy-ritchie-banner" alt="Link to Guy Ritchie's Best Page" %}
-  </div>
-
-  <div>
-    <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="ux">UX Design</h2>
-    {% include banner.html link="gendersafe" title="GenderSafe" image="gendersafe-banner" alt="Link to GenderSafe Case Study Page" %}
-  </div>
-
-  <div>
-    <h2 class="text-left section gutter pad-t-2 pad-b-1-2 push-0" id="branding">Branding</h2>
-    {% include banner.html link="kars-massage-therapy" title="Kars Massage Therapy" image="kars-massage-therapy-banner" alt="Link to Kars Massage Therapy Branding Page" %}
-  </div>
-
-</section>
